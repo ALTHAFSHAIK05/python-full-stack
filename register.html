@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Register Page</title>
 </head>
 <body>
@@ -21,26 +22,41 @@
     <hr>
     </header>
     <main>
+        <h2>Student Registration</h2>
         <form>
-        <input type="text" placeholder="Enter your name"><br><br>
-        <input type="email" placeholder="Enter your email"><br><br>
-        <input type="password" placeholder="Enter your password"><br><br>
-        <input>date of birth <br><br>
-        <input type ="date"<br><br>
-        <input type=""radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter Your Email"><br><br>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Your Password"><br><br>
+            <label>Date of Birth</label>
+            <input type="date"><br><br>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+            <label>select course</label>
+            <select>
+                <option>python fullstack</option>
+                <option>java fullstack</option>
+                <option>data science</option>
+                <br><br>
+                    <input type="submit"
+                    value="register">
+            </select>
         </form>
-            <h2>Register</h2>
-            <form action="register.php" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br><br>
-                <input type="submit" value="Register">
-            </form>
-        </section>
-    
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2026 NRIIT learning management system </p>
+        <p>Email:info@nriit.edu</p>
+        <p>phone:+91 9998887771</p>
+        <p>follow us:</p>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">linkedin</a>
+
+    </footer>
 </body>
 </html>
