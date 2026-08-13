@@ -34,4 +34,84 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }     
+main{
+    margin:auto;
+    width: 90%;
+    margin-top: 30px;
+}
+section{
+    margin-bottom: 30px;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: #82ca0f;
+    margin-bottom: 10px;
+}
+p{
+    color: #720303;
+    margin-bottom: 10px;
+}
+.banner{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 200px;
+}
+ul{
+    list-style-type: disc;
+    margin-left: 50px;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+article{
+    background-color: #380dd4;
+    padding: 20px;
+    border-radius: 10px;
+}
+article:hover{
+    background-color: #f3285b;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #971b1b;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid #e0ee18;
+}
+tr:hover{
+    background-color: #17e65c;
+}
+ol{
+    margin-left: 50px;
+    padding: 10px;
+}
+ol li{
+    margin-bottom: 10px;
+}
+form{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+input:not([type="submit"]):not([type="radio"]){
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c73131;
+    border-radius: 5px;
+    font-size: 16px;
+}
 
