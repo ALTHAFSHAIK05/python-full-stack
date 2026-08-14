@@ -23,26 +23,26 @@
     </header>
     <main>
         <h2>Student Registration</h2>
-        <form>
+        <form id="registerForm">
             <label>Full Name</label>
-            <input type="text" placeholder="Enter Your Name"><br><br>
+            <input type="text" placeholder="Enter Your Name" id="name"><br><br>
             <label>Email</label>
-            <input type="email" placeholder="Enter Your Email"><br><br>
+            <input type="email" placeholder="Enter Your Email" id="email"><br><br>
             <label>Password</label>
-            <input type="password" placeholder="Enter Your Password"><br><br>
+            <input type="password" placeholder="Enter Your Password" id="password"><br><br>
             <label>Date of Birth</label>
-            <input type="date"><br><br>
+            <input type="date" id="date"><br><br>
             <label>Gender</label>
-            <input type="radio" name="gender" value="male">Male
-            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male" id="male">Male
+            <input type="radio" name="gender" value="female" id="female">Female
             <br><br>
             <label>select course</label>
-            <select>
+            <select id="course" name="course">
                 <option>python fullstack</option>
                 <option>java fullstack</option>
                 <option>data science</option>
                 <br><br>
-                    <input type="submit"
+                    <button type="submit">register</button>
                     value="register">
             </select>
         </form>
